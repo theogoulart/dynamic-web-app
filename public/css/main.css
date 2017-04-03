@@ -10,14 +10,13 @@ body{
 .header {
 	color: white;
 	height: 70px;
-	background-color: grey;
+	background-color: rgb(100,170,100);
 	width: 100%;
 }
 
 .brand{
 	display: inline-block;
 	font-size: 1.5em;
-	font-weight: bold;
 	padding-top: 0.8em;
 }
 
@@ -34,4 +33,38 @@ body{
 	display: inline-block;
 	text-decoration: none;
 	padding: 1.5em;
+}
+
+.main__container{
+	max-width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.dashboard{
+	padding-top: 70px;
+	height: 140px;
+}
+
+.dashboard__heading{
+	font-size: 2.5em;
+}
+
+.poll {
+	background-color: rgb(200,250,200);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.poll__heading {
+  font-size: 2em;
+}
+
+.poll__item {
+  height: 40px;
+  width: 100%;
+  padding-top: 1.5em;
+  margin-top: 1em;
+  border: solid rgb(150,250,150) 1px;
+  background-color: rgb(240,240,240);
 }

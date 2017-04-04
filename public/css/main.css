@@ -35,6 +35,28 @@ body{
 	padding: 1.5em;
 }
 
+a {
+	text-decoration: none;
+}
+
+.login-btn {
+	border: 1px solid black;
+	padding: 0.5em;
+	margin-top: 6px;
+	background-color: rgb(50,50,50);
+	border-radius: 5px;
+	color: white;
+}
+
+.login-btn:active {
+	color: white;
+}
+
+.login-btn span {
+	position: relative;
+	top: -9px;
+}
+
 .main__container{
 	max-width: 1000px;
 	margin: 0 auto;

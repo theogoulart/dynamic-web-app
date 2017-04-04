@@ -90,3 +90,22 @@ a {
   border: solid rgb(150,250,150) 1px;
   background-color: rgb(240,240,240);
 }
+
+button {
+	padding: 1em;
+	background-color: rgb(220,220,220);
+	margin: 20px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 1px 3px rgb(50,100,100);
+}
+
+button:focus {
+	outline: none;
+}
+
+.logout-btn {
+	position: relative;
+	top: 25px;
+	color: white;
+}

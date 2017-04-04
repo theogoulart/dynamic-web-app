@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Voting App - theogoulart</title>
+      <link rel="stylesheet" href="/public/css/main.css" type="text/css" />
+   </head>
+
+   <body>
+
+        <header class="header">
+            <section class="menu__wrapper">
+                <div class="brand">
+                    goulart's voting site
+                </div>
+                <menu class="menu">
+                    <a href="/auth/github">
+    					<p class="logout-btn">LOGOUT</p>
+    				</a>
+                </menu>
+            </section>
+            
+        </header>
+        
+        <main class="main__container">
+            <h1 class="new-poll__heading">Create new poll</h1>
+            <section class="new-poll__form">
+                <label>Title 
+                <br>
+                <input class="new-poll__title" type="text" name="title"/>
+                </label>
+                <br>
+                <label>Options (separated by line)
+                <br>
+                <textarea class="new-poll__options" name="options"></textarea>
+                </label>
+                
+                <button class="btn-create-poll">Create poll</button>
+            </section>
+        </main>
+        
+   </body>
+</html>

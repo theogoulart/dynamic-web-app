@@ -25,15 +25,15 @@ module.exports = function (app, passport) {
 			res.sendFile(path + '/public/login.html');
 		});
 
+	app.route('/newpoll')
+		.get(function(req, res) {
+			res.sendFile(path + '/public/newpoll.html')
+	})
+
 	app.route('/logout')
 		.get(function (req, res) {
 			req.logout();
 			res.redirect('/login');
-		});
-
-	app.route('/profile')
-		.get(isLoggedIn, function (req, res) {
-			res.sendFile(path + '/public/profile.html');
 		});
 
 	app.route('/api/:id')
